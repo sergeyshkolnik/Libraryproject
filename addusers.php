@@ -6,6 +6,17 @@ include_once("connection.php");//connects page to the database
     
     
 $hashed_password = password_hash($_POST["password"], PASSWORD_DEFAULT); 
+switch($_POST["role"]){
+	case "Pupil":
+		$role=0;
+		break;
+	case "Teacher":
+		$role=1;
+		break;
+	case "Admin":
+		$role=2;
+break;
+    }
 
 
     $stmt = $conn->prepare("INSERT INTO TblUsers (UserID,Gender,Surname,Forename,Password,House,Year ,Role)VALUES (null,:gender,:surname,:forename,:password,:house,:year,:role)");
