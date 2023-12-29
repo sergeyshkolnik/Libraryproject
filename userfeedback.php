@@ -4,7 +4,7 @@
 session_start();
 include_once("connection.php");
 $searchErr = '';
-
+//$_SESSION['searchuser'] = $_POST['searchuser'];
 
 
 
