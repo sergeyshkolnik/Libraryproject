@@ -7,6 +7,11 @@ INNER JOIN TblUsers
 ON TblUsers.UserID=TblUserBooks.UserID
 INNER JOIN TblBooks 
 ON TblBooks.BookID=TblUserBooks.BookID");
-$stmt = bindParam(':user', $_SESSION["user"]);
+$stmt = bindParam(':username', $_SESSION["user"]);
 $stmt->execute();
+while($row = $stmt1->fetch(PDO::FETCH_ASSOC) ) {
+    
+    
+    echo($row["bn"]."<br>");
 
+}
