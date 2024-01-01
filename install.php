@@ -32,6 +32,6 @@ Report TEXT,
 PRIMARY KEY(UserID,BookID)) ");
 $stmt3-> execute();
 $stmt3->closeCursor();
-
+echo("Hello");
 
 ?>
