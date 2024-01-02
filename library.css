@@ -31,3 +31,20 @@
     height: 60%;
     width: 60%;
 }
+.login{
+    border: 50%;
+    align-items: center;
+    text-align: center;
+}
+.container{
+    height: 50%;
+    width: 300px;
+}
+.jumbotron{
+    background-color: burlywood;
+    text-align: center;
+
+}
+.image{
+    align-items: left;
+}

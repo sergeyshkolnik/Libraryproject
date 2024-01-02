@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
-        Oundle School Library
+        <title>Oundle School Library</title>
         <link rel = "stylesheet" href = "library.css">
         <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -12,7 +12,9 @@
     </head>
     <body>
         <div class = "welcome">
+        <div class = "jumbotron">
         <h1>Welcome to the OS Library</h1>
+        </div>
         
         <div id="demo" class="carousel slide" data-ride="carousel">
 
