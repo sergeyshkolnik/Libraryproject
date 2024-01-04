@@ -35,6 +35,8 @@
     border: 50%;
     align-items: center;
     text-align: center;
+    background-image: url(https://s26162.pcdn.co/wp-content/uploads/2023/06/overflowing-bookcases.jpg);
+    color: aliceblue;
 }
 .container{
     height: 50%;
